@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tasts.ButtonsTest">
+      <class name="tasts.NestedFremesTest">
         <methods>
-          <include name="launchurlTesta"/>
-          <include name="validateDetailsTest"/>
+          <include name="launchurl"/>
+          <include name="clickOnNestedFrameTest"/>
         </methods>
-      </class> <!-- tasts.ButtonsTest -->
+      </class> <!-- tasts.NestedFremesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
